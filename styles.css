@@ -8,5 +8,24 @@ html {
 
 body {
     margin: 0;
+    text-align: center;
+    color: #333;
 }
 
+#main {
+    padding: 1rem;
+    background: #ddd;
+}
+
+#img-div {
+    background: whitesmoke;
+    padding: 1rem;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
