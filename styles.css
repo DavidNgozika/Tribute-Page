@@ -17,6 +17,12 @@ body {
     background: #ddd;
 }
 
+#title {
+    font-size: 220%;
+    color: #111;
+    text-shadow: 2px 2px 4px #333;
+}
+
 #img-div {
     background: whitesmoke;
     padding: 1rem;
@@ -53,4 +59,9 @@ th {
 
 tr:nth-child(even) {
     background-color: #bbb;
+}
+
+blockquote {
+    font-style: italic;
+    color: #444;
 }
