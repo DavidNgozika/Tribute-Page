@@ -65,3 +65,25 @@ blockquote {
     font-style: italic;
     color: #444;
 }
+
+#tribute-link {
+    text-decoration: none;
+    color: #006bb3;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    #table, #img-caption {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    #table {
+        width: 65%;
+    }
+}
