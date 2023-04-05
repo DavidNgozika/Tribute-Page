@@ -49,6 +49,10 @@ img#image {
     border-collapse: collapse;
 }
 
+#table {
+    box-shadow: 5px 5px 35px 1px #333;
+}
+
 th, td {
     padding: 0.5rem;
 }
@@ -85,5 +89,9 @@ blockquote {
 @media (min-width: 768px) {
     #table {
         width: 65%;
+    }
+
+    #headline {
+        font-size: 150%;
     }
 }
